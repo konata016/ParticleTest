@@ -273,7 +273,7 @@ PrefabInstance:
     - target: {fileID: 655633577251144704, guid: 00c1b719781a61848b63b8ffcdf8afc6,
         type: 3}
       propertyPath: m_Name
-      value: BreakSter
+      value: SterBreak
       objectReference: {fileID: 0}
     - target: {fileID: 655633577251144709, guid: 00c1b719781a61848b63b8ffcdf8afc6,
         type: 3}
@@ -548,7 +548,32 @@ PrefabInstance:
     - target: {fileID: 655633577251144706, guid: 00c1b719781a61848b63b8ffcdf8afc6,
         type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 1.0000
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 655633577251144706, guid: 00c1b719781a61848b63b8ffcdf8afc6,
+        type: 3}
+      propertyPath: VelocityModule.speedModifier.maxCurve.m_Curve.Array.data[1].value
+      value: 0.108107924
+      objectReference: {fileID: 0}
+    - target: {fileID: 655633577251144706, guid: 00c1b719781a61848b63b8ffcdf8afc6,
+        type: 3}
+      propertyPath: VelocityModule.x.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 655633577251144706, guid: 00c1b719781a61848b63b8ffcdf8afc6,
+        type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 655633577251144706, guid: 00c1b719781a61848b63b8ffcdf8afc6,
+        type: 3}
+      propertyPath: VelocityModule.speedModifier.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 655633577251144707, guid: 00c1b719781a61848b63b8ffcdf8afc6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1b09b1ca8ba05d4682ccf6db6b1102d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00c1b719781a61848b63b8ffcdf8afc6, type: 3}
